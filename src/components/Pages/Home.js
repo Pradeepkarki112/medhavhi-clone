@@ -1,12 +1,13 @@
-import React from 'react'
-import Footer from '../Extra/Footer';
-import Navbar from './../Extra/Navbar';
+import React from "react";
+import Footer from "../Extra/Footer";
+import Navbar from "./../Extra/Navbar";
 
 export default function Home() {
   return (
-    <div>
-        <Navbar />
-        <Footer />
+    <div className="bg-gray-400">
+      <Navbar />
+      <div>asdf</div>
+      <Footer />
     </div>
-  )
+  );
 }
