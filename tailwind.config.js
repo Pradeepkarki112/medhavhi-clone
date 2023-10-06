@@ -5,6 +5,10 @@ module.exports = {
     extend: {
       colors: {
         primaryColor: "#45B8EA",
+        secondaryColor: "#545454",
+        backgroundColor: "faf9f6",
+        blackColor: "#000000",
+        whiteColor: "#ffffff",
       },
 
       screens: {
@@ -13,7 +17,7 @@ module.exports = {
       },
 
       fontSize: {
-        normalSize: "16px",
+        smallSize: "16px",
         mediumSize: "24px",
         largeSize: "40px",
       },
