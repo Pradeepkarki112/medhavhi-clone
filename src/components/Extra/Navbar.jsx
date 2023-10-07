@@ -10,12 +10,12 @@ export default function Navbar() {
         <div>
           <img src={medhavhi} alt="medhavhi" />
         </div>
-        <div className="hidden lg:flex items-center gap-10 text-smallSize font-medium text-base tracking-wider">
+        <div className="hidden lg:flex items-center gap-10 text-smallSize font-semibold text-base tracking-wider">
           <div>
             <Link to="/login">Login</Link>
           </div>
           <div className="text-primaryColor shadow-md bg-whiteColor px-9 py-3 rounded-lg">
-            <Link to="/register">Sign up</Link>
+            <Link to="/register">Sign Up</Link>
           </div>
         </div>
 

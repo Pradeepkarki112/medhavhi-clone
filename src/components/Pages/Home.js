@@ -4,9 +4,9 @@ import Navbar from "./../Extra/Navbar";
 
 export default function Home() {
   return (
-    <div className="bg-gray-400">
+    <div className="bg-backgroundColor">
       <Navbar />
-      <div>asdf</div>
+      <div className="text-center font-bold text-primaryColor">Main Body</div>
       <Footer />
     </div>
   );

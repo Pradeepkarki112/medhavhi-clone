@@ -6,14 +6,19 @@ module.exports = {
       colors: {
         primaryColor: "#45B8EA",
         secondaryColor: "#545454",
-        backgroundColor: "faf9f6",
+        backgroundColor: "#faf9f6",
+        greyColor: "#7d7d7d",
         blackColor: "#000000",
         whiteColor: "#ffffff",
+        creamColor: "#F4F4F5"
       },
 
       screens: {
-        // sm: "640px",
-        "2xl": "1280px",
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1280x",
+        "2xl": "1536px",
       },
 
       fontSize: {
@@ -23,9 +28,16 @@ module.exports = {
       },
 
       letterSpacing: {
-        tight: "-.025em",
         normal: "0",
         wide: ".025em",
+        wider: ".05em",
+        widest: ".075em",
+        tight: "-.025em",
+        tighter: "-.05em",
+        tightest: "-.075em",
+      },
+      lineHeight: {
+        tall: "22px",
       },
     },
   },
