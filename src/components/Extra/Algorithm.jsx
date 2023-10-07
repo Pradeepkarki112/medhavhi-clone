@@ -28,11 +28,9 @@ export default function Algorithm() {
           <div className="text-primaryColor mb-2 md:mb-4 font-semibold tracking-wide text-sm sm:text-sm md:text-base md:leading-tall">
             Create Algorithm Assisted Routine
           </div>
-
           <div className="text-2xl sm:text-3xl md:text-4xl md:leading-[44px] tracking-tight font-bold mb-4 md:mb-6">
             Experience the power of algorithm-assisted routine creation
           </div>
-
           <p className=" text-secondaryColor mb-5 md:mb-[44px] tracking-wider leading-5 md:leading-[25px] text-sm sm:text-sm md:text-base lg:text-sm xl:text-base">
             Our school management system introduces the innovative "Create
             Algorithm Assisted Routine" feature, designed to simplify and
@@ -52,11 +50,9 @@ export default function Algorithm() {
             with the Medhavhi Automated Routine Management System managing
             teachers has been so much easier. All thanks to Medhavhi.”
           </div>
-
           <h1 className="text-blackColor leading-[26px] tracking-wide font-bold md:mb-1 text-xs sm:text-sm md:text-base">
             Sunita Nuepane Silwal
           </h1>
-
           <p className="text-greyColor font-medium text-xs sm:text-xs md:text-sm">
             Padma Shree College
           </p>

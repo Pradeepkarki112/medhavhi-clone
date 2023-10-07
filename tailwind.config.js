@@ -39,9 +39,9 @@ module.exports = {
         tightest: "-.075em",
       },
       lineHeight: {
-        taller: "48px",
-        tall: "22px",
         short: "18px",
+        tall: "22px",
+        taller: "48px",
       },
     },
   },

@@ -1,8 +1,11 @@
+/* Apply the "Archivo" font family to HTML and body elements */
 html,
 body {
     font-family: "Archivo", sans-serif;
     scroll-behavior: smooth;
+    /* Enable smooth scrolling behavior */
 }
+
 
 /* Style for the main scrollbar */
 body::-webkit-scrollbar {
@@ -12,4 +15,44 @@ body::-webkit-scrollbar {
     /* Set the width of the scrollbar */
     border-radius: 50vh;
     /* Rounded scrollbar shape */
+}
+
+/* Keyframes animation for moving from right to left */
+@keyframes animateLeft {
+    0% {
+        transform: translateX(100%);
+        /* Start position, fully to the right */
+    }
+
+    100% {
+        transform: translateX(0);
+        /* End position, at the original position */
+    }
+}
+
+/* CSS class to apply the 'animateLeft' animation */
+.leftanimation {
+    animation: animateLeft 1s ease-in-out;
+    /* Apply the animation */
+    animation-fill-mode: forwards;
+    /* Keep the final state after animation */
+}
+
+/* Keyframes animation for moving from bottom to top */
+@keyframes animateUpward {
+    0% {
+        transform: translateY(100%);
+        /* Start position, fully at the bottom */
+    }
+
+    100% {
+        transform: translateY(0);
+        /* End position, at the original position */
+    }
+}
+
+/* CSS class to apply the 'animateUpward' animation */
+.topanimation {
+    animation: animateUpward 1s ease-in-out forwards;
+    /* Apply the animation and keep final state */
 }
