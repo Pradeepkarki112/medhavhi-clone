@@ -20,7 +20,7 @@ export default function Resource() {
 
   return (
     <div className="w-full px-5 lg:px-32 py-5 md:py-20">
-      <div className="w-full h-full flex items-center flex-col-reverse gap-10 xl:gap-[120px] lg:flex-row-reverse">
+      <div className="w-full h-full flex items-center flex-col-reverse gap-[120px] lg:flex-row-reverse">
         {/* right part */}
         <div className="w-full  sm:w-fit flex items-center">
           <div className="w-full">
@@ -116,6 +116,7 @@ export default function Resource() {
             </button>
           </div>
         </div>
+        
       </div>
     </div>
   );
