@@ -10,12 +10,13 @@ module.exports = {
         greyColor: "#7d7d7d",
         blackColor: "#000000",
         whiteColor: "#ffffff",
-        creamColor: "#F4F4F5"
+        creamColor: "#F4F4F5",
       },
 
       screens: {
         sm: "640px",
         md: "768px",
+        mmd: "900px",
         lg: "1024px",
         xl: "1280x",
         "2xl": "1536px",
@@ -37,7 +38,9 @@ module.exports = {
         tightest: "-.075em",
       },
       lineHeight: {
+        taller: "48px",
         tall: "22px",
+        short: "18px",
       },
     },
   },
