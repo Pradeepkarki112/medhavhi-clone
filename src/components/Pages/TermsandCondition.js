@@ -1,7 +1,11 @@
-import React from 'react'
+import React from "react";
+import Navbar from "../Extra/Navbar";
 
 export default function TermsandCondition() {
   return (
-    <div>TermsandCondition</div>
-  )
+    <div>
+      <Navbar />
+      <div>TermsandCondition</div>
+    </div>
+  );
 }

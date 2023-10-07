@@ -1,7 +1,13 @@
-import React from 'react'
+import React from "react";
+import Navbar from "./../Extra/Navbar";
+import Footer from "./../Extra/Footer";
 
 export default function Login() {
   return (
-    <div>Login</div>
-  )
+    <div>
+      <Navbar />
+      <div>Login</div>
+      <Footer />
+    </div>
+  );
 }

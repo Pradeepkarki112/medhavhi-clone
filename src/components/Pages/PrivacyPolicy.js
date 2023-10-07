@@ -1,7 +1,11 @@
-import React from 'react'
+import React from "react";
+import Navbar from "../Extra/Navbar";
 
 export default function PrivacyPolicy() {
   return (
-    <div>PrivacyPolicy</div>
-  )
+    <div>
+      <Navbar />
+      <div>PrivacyPolicy</div>
+    </div>
+  );
 }

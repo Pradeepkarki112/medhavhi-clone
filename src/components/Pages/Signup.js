@@ -1,7 +1,13 @@
-import React from 'react'
+import React from "react";
+import Navbar from "../Extra/Navbar";
+import Footer from "../Extra/Footer";
 
 export default function Signup() {
   return (
-    <div>Signup</div>
-  )
+    <div>
+      <Navbar />
+      <div>Signup</div>
+      <Footer />
+    </div>
+  );
 }
