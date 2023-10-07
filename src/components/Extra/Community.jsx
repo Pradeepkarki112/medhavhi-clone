@@ -8,21 +8,22 @@ import freply from "./../../assets/15reply.png";
 import lreply from "./../../assets/16reply.png";
 
 export default function Community() {
-  const [showFirstSection, setShowFirstSection] = useState(true);
+  const [show, setShow] = useState(true);
 
   useEffect(() => {
     const timeout = setTimeout(() => {
-      setShowFirstSection((prevShowFirst) => !prevShowFirst);
+      setShow((prevShowFirst) => !prevShowFirst);
     }, 3000);
 
     return () => clearTimeout(timeout);
-  }, [showFirstSection]);
+  }, [show]);
   return (
     <div className=" py-5 md:py-20 w-full lg:px-32 px-5 ">
       <div className=" items-center w-full h-full flex flex-col-reverse gap-[120px] lg:flex-row  ">
+        {/* left part */}
         <div className=" flex w-full sm:w-fit items-center ">
           <div className="w-full">
-            {showFirstSection && (
+            {show && (
               <div className="w-full relative h-[320px] overflow-hidden xs:w-[500px] xs:h-[400px] md:w-[700px] md:h-[480px] lg:w-[400px] lg:h-[480px] xl:w-[480px] xl:h-[480px] bg-[#E2E8F0] rounded-2xl">
                 <div className="flex gap-1 xs:gap-2 md:gap-4 h-full justify-end items-center flex-col">
                   <div className="w-[200px] xs:w-[250px] animate-left md:w-[290px] h-[190px] xs:h-[240px] md:h-[280px]">
@@ -40,7 +41,7 @@ export default function Community() {
               </div>
             )}
 
-            {!showFirstSection && (
+            {!show && (
               <div className="w-full relative h-[320px] overflow-hidden xs:w-[500px] xs:h-[400px] md:w-[700px] md:h-[480px] lg:w-[400px] lg:h-[480px] xl:w-[480px] xl:h-[480px] bg-[#E2E8F0] rounded-2xl">
                 <div className="flex h-full gap-1 xs:gap-2 justify-center items-center flex-col">
                   <div className="xs:w-[290px] w-[250px] animate-upward-more h-[65px] xs:h-[72px]">
@@ -58,6 +59,7 @@ export default function Community() {
           </div>
         </div>
 
+        {/* right part */}
         <div className=" w-full flex flex-col ">
           <p className="text-primaryColor font-semibold tracking-wide text-xs sm:text-sm md:text-base md:leading-[22px] mb-2 md:mb-4">
             Connected Learning and Community Engagement
