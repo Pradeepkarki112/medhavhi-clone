@@ -7,11 +7,11 @@ import dashboard from "./../../assets/2dashboard.png";
 
 export default function Herobar() {
   return (
-    <div className="py-10 px-5 mmd:pt-[120px] mmd:pb-44 lg:px-32">
+    <div className="px-5 lg:px-32 py-10 mmd:pb-44 mmd:pt-[120px]">
       <div className="relative grid gap-12 md:gap-5 lg:gap-10 xl:gap-28 lg:grid-cols-2">
         {/* left part */}
         <div className="flex flex-col gap-4">
-          <h1 className="font-bold tracking-tight text-2xl sm:text-3xl lg:text-4xl xl:text-largeSize xl:leading-taller">
+          <h1 className="font-bold tracking-tight text-2xl xl:leading-taller sm:text-3xl xl:text-largeSize lg:text-largeSize">
             Medhavhi: School & Learning Management System
           </h1>
           <p className="text-secondaryColor text-sm sm:text-sm md:text-base tracking-tight sm:leading-tall">

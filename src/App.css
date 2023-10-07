@@ -3,3 +3,13 @@ body {
     font-family: "Archivo", sans-serif;
     scroll-behavior: smooth;
 }
+
+/* Style for the main scrollbar */
+body::-webkit-scrollbar {
+    cursor: pointer;
+    /* Change cursor on hover */
+    width: 0.4em;
+    /* Set the width of the scrollbar */
+    border-radius: 50vh;
+    /* Rounded scrollbar shape */
+}

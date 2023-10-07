@@ -10,7 +10,7 @@ export default function Navbar() {
         <Link to="/">
           <img src={medhavhi} alt="medhavhi" />
         </Link>
-        <div className="hidden lg:flex items-center gap-10 text-smallSize font-semibold text-base tracking-wider">
+        <div className="hidden lg:flex items-center gap-1 text-smallSize font-semibold text-base tracking-wider">
           <Link to="/login" className="px-9 py-3">
             Login
           </Link>
