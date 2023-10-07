@@ -1,11 +1,12 @@
 import React from "react";
+import medhavhi from "./../../assets/logo-medhavhi.png";
+import { LuMoveRight } from "react-icons/lu";
+import { Link } from "react-router-dom";
+
 // import { AiFillTwitterCircle } from "react-icons/ai";
 // import { BiLogoTiktok } from "react-icons/bi";
 // import { BsFacebook } from "react-icons/bs";
 // import { FaInstagramSquare } from "react-icons/fa";
-
-import medhavhi from "./../../assets/logo-medhavhi.png";
-import { LuMoveRight } from "react-icons/lu";
 
 const sections = [
   {
@@ -166,10 +167,10 @@ export default function Footer() {
                 © 2023 Medhavhi. All right reserved.
               </div>
               <div className="text-greyColor flex flex-col items-center sm:flex-row sm:gap-8">
-                <a href="/privacy-policy" className="mb-4 sm:mb-0">
+                <Link to="/privacy-policy" className="mb-4 sm:mb-0">
                   Privacy Policy
-                </a>
-                <a href="/terms-and-conditions">Terms &amp; Conditions</a>
+                </Link>
+                <Link to="/terms-and-conditions">Terms &amp; Conditions</Link>
               </div>
             </div>
           </div>
