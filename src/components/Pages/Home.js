@@ -11,16 +11,18 @@ import Download from "./../Extra/Download";
 
 export default function Home() {
   return (
-    <div className="bg-backgroundColor">
+    <>
       <Navbar />
-      <Herobar />
-      <Algorithm />
-      <Resource />
-      <Community />
-      <WorkFlow />
-      <Discover />
-      <Download />
-      <Footer />
-    </div>
+      <div className="bg-backgroundColor">
+        <Herobar />
+        <Algorithm />
+        <Resource />
+        <Community />
+        <WorkFlow />
+        <Discover />
+        <Download />
+        <Footer />
+      </div>
+    </>
   );
 }

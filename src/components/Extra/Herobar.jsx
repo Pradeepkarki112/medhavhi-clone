@@ -9,12 +9,12 @@ export default function Herobar() {
   return (
     <div className="px-5 lg:px-32 py-10 md:pb-44 md:pt-[120px] overflow-hidden">
       <div className="relative grid gap-12 md:gap-5 lg:gap-10 xl:gap-28 lg:grid-cols-2">
-        {/* left part */}
+        {/* Left Part */}
         <div className="flex flex-col gap-4">
-          <h1 className="font-bold tracking-tight text-2xl xl:leading-taller sm:text-3xl xl:text-largeSize lg:text-largeSize">
+          <h1 className="font-bold tracking-tight text-2xl sm:text-3xl xl:text-largeSize lg:text-largeSize xl:leading-taller">
             Medhavhi: School & Learning Management System
           </h1>
-          <p className="text-secondaryColor text-sm sm:text-sm md:text-base tracking-tight sm:leading-tall">
+          <p className="text-sm sm:text-sm md:text-base tracking-tight sm:leading-tall text-secondaryColor">
             Medhavhi, the all-in-one platform connecting school, students,
             teachers, and parents, simplifying education, communication, and
             collaboration for a seamless learning experience.
@@ -28,21 +28,21 @@ export default function Herobar() {
               <Link to="/login">Create School</Link>
             </button>
           </div>
-          <div className="flex items-center mt-1 gap-2 sm:mt-2 md:gap-4 ">
+          <div className="flex items-center mt-1 gap-2 sm:mt-2 md:gap-4">
             <span className="text-secondaryColor tracking-wide text-sm md:text-sm leading-short">
               Also Available on
             </span>
             <div className="flex">
               <a href="https://www.apple.com/app-store/">
                 <img
-                  className="object-cover h-8 w-8 cursor-default"
+                  className="object-cover h-8 w-8 cursor-pointer"
                   src={appstore}
                   alt="appstore"
                 />
               </a>
               <a href="https://play.google.com/store/apps/details?id=com.medhavhi.app">
                 <img
-                  className="object-cover h-8 w-8 cursor-default"
+                  className="object-cover h-8 w-8 cursor-pointer"
                   src={playstore}
                   alt="playstore"
                 />
@@ -51,7 +51,7 @@ export default function Herobar() {
           </div>
         </div>
 
-        {/* right part */}
+        {/* Right Part */}
         <div className="relative items-center overflow-hidden md:overflow-visible h-60 sm:h-72 md:h-fit">
           <div className="absolute flex gap-2 -top-5 md:gap-4 lg:gap-6">
             <div className="relative overflow-hidden rounded-xl shadow-sm h-[230px] sm:h-[400px] md:h-[350px] xl:h-[400px] w-[90px] sm:w-[192px] md:w-[150px] xl:w-[192px]">
