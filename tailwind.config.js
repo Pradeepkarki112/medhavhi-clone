@@ -31,13 +31,10 @@ module.exports = {
       },
 
       letterSpacing: {
-        normal: "0",
         wide: ".025em",
         wider: ".05em",
-        widest: ".075em",
         tight: "-.025em",
         tighter: "-.05em",
-        tightest: "-.075em",
       },
       lineHeight: {
         short: "18px",
