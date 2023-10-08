@@ -2,7 +2,7 @@
 
 This a clone of Medhavhi website. It is for educational purpose only.
 
-Photo of site:
+Photo of site:\
 (https://github.com/Pradeepkarki112/medhavhi-clone/assets/51919957/28ec7775-26bb-45bf-b6e5-df47b3610413)
 
 ### `npm start`
