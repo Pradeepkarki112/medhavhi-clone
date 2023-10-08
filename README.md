@@ -3,7 +3,8 @@
 This a clone of Medhavhi website. It is for educational purpose only.
 
 Photo of site:\
-(https://github.com/Pradeepkarki112/medhavhi-clone/assets/51919957/28ec7775-26bb-45bf-b6e5-df47b3610413)
+![image](https://github.com/Pradeepkarki112/medhavhi-clone/assets/51919957/bae1698d-a385-4d72-a25a-fbc4f51661dd)
+
 
 ### `npm start`
 
