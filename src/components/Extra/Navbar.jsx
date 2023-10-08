@@ -5,24 +5,27 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <div className="bg-whiteColor shadow-sm sticky z-10 top-0">
-      <div className=" flex justify-between items-center py-3 px-5 lg:px-32">
+    <div className="sticky top-0 z-10 bg-whiteColor shadow-sm">
+      <div className="flex justify-between items-center px-5 py-3 lg:px-32">
         <Link to="/">
           <img src={medhavhi} alt="medhavhi" />
         </Link>
-        <div className="hidden lg:flex items-center gap-1 text-smallSize font-semibold text-base tracking-wider">
+
+        {/* Navigation Links for Larger Screens */}
+        <div className="hidden lg:flex items-center text-base font-semibold text-smallSize tracking-wider gap-1">
           <Link to="/login" className="px-9 py-3">
             Login
           </Link>
           <Link
             to="/register"
-            className="text-primaryColor shadow-sm bg-whiteColor px-9 py-3 rounded-lg"
+            className="px-9 py-3 bg-whiteColor text-primaryColor shadow-sm rounded-lg"
           >
             Sign Up
           </Link>
         </div>
 
-        <div className="flex lg:hidden text-mediumSize">
+        {/* Hamburger Icon for Mobile */}
+        <div className="flex text-mediumSize lg:hidden">
           <VscThreeBars />
         </div>
       </div>

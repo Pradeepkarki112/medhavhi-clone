@@ -7,14 +7,14 @@ import dashboard from "./../../assets/2dashboard.png";
 
 export default function Herobar() {
   return (
-    <div className="px-5 lg:px-32 py-10 md:pb-44 md:pt-[120px] overflow-hidden">
+    <div className="overflow-hidden px-5 lg:px-32 py-10 md:pb-44 md:pt-[120px]">
       <div className="relative grid gap-12 md:gap-5 lg:gap-10 xl:gap-28 lg:grid-cols-2">
         {/* Left Part */}
         <div className="flex flex-col gap-4">
           <h1 className="font-bold tracking-tight text-2xl sm:text-3xl xl:text-largeSize lg:text-largeSize xl:leading-taller">
             Medhavhi: School & Learning Management System
           </h1>
-          <p className="text-sm sm:text-sm md:text-base tracking-tight sm:leading-tall text-secondaryColor">
+          <p className="text-secondaryColor text-sm sm:text-sm md:text-base tracking-tight sm:leading-tall">
             Medhavhi, the all-in-one platform connecting school, students,
             teachers, and parents, simplifying education, communication, and
             collaboration for a seamless learning experience.
