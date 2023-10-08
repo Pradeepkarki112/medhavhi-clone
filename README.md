@@ -2,6 +2,9 @@
 
 This a clone of Medhavhi website. It is for educational purpose only.
 
+Photo of site:\
+![image](https://github.com/Pradeepkarki112/medhavhi-clone/assets/51919957/bae1698d-a385-4d72-a25a-fbc4f51661dd)
+
 
 ### `npm start`
 
@@ -18,4 +21,4 @@ Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Your app is ready to be deployed!![image]
