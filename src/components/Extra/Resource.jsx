@@ -1,22 +1,22 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-// import video from "../../assets/5video.mp4";
-// import resource from "./../../assets/6resource.png";
+import video from "../../assets/5video.mp4";
+import resource from "./../../assets/6resource.png";
 import fstatus from "./../../assets/7status.png";
 import lstatus from "./../../assets/8status.png";
 import frequest from "./../../assets/9request.png";
 import lrequest from "./../../assets/10request.png";
 
 export default function Resource() {
-  const [show, setShow] = useState(true);
+  const [currentDiv, setCurrentDiv] = useState(1);
 
   useEffect(() => {
-    const timeout = setTimeout(() => {
-      setShow((prevShowFirst) => !prevShowFirst);
-    }, 4000);
+    const interval = setInterval(() => {
+      setCurrentDiv((prevDiv) => (prevDiv % 3) + 1); // Cycle through 1, 2, 3
+    }, 3000);
 
-    return () => clearTimeout(timeout);
-  }, [show]);
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <div className="w-full px-5 lg:px-32 py-5 md:py-20">
@@ -25,7 +25,7 @@ export default function Resource() {
         <div className="w-full  sm:w-fit flex items-center">
           <div className="w-full">
             <div className="w-full">
-              {/* {show && (
+              {currentDiv === 1 && (
                 <div className="relative bg-greyblueColor overflow-hidden rounded-2xl w-full h-[320px] xs:w-[500px] xs:h-[400px] md:w-[700px] md:h-[480px] lg:w-[400px] lg:h-[480px] xl:w-[480px] xl:h-[480px]">
                   <div className="flex flex-col items-center justify-end">
                     <div className="absolute mt-auto top-[30px] md:top-[60px] w-[250px] xs:w-[290px] h-[120px] md:h-[150px] leftanimation">
@@ -36,9 +36,9 @@ export default function Resource() {
                     </div>
                   </div>
                 </div>
-              )} */}
+              )}
 
-              {show && (
+              {currentDiv === 2 && (
                 <div className="relative bg-greyblueColor overflow-hidden rounded-2xl w-full h-[320px] xs:w-[500px] xs:h-[400px] md:w-[700px] md:h-[480px] lg:w-[400px] lg:h-[480px] xl:w-[480px] xl:h-[480px]">
                   <div className="flex flex-col items-center justify-end">
                     <div className="absolute mt-auto top-[30px] md:top-[60px] w-[250px] xs:w-[290px] h-[120px] md:h-[150px] leftanimation">
@@ -51,7 +51,7 @@ export default function Resource() {
                 </div>
               )}
 
-              {!show && (
+              {currentDiv === 3 && (
                 <div className="relative bg-greyblueColor overflow-hidden rounded-2xl w-full h-[320px] xs:w-[500px] xs:h-[400px] md:w-[700px] md:h-[480px] lg:w-[400px] lg:h-[480px] xl:w-[480px] xl:h-[480px]">
                   <div className="flex flex-col items-center justify-end">
                     <div className="absolute mt-auto top-[30px] md:top-[60px] w-[250px] xs:w-[290px] h-[120px] md:h-[150px] leftanimation">
@@ -116,7 +116,6 @@ export default function Resource() {
             </button>
           </div>
         </div>
-        
       </div>
     </div>
   );

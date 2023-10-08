@@ -6,24 +6,27 @@ import tstudent from "./../../assets/13student.png";
 import post from "./../../assets/14post.png";
 import freply from "./../../assets/15reply.png";
 import lreply from "./../../assets/16reply.png";
+// import book from "./../../assets/17book.png";
+// import message from "./../../assets/18message.png";
 
 export default function Community() {
-  const [show, setShow] = useState(true);
+  const [currentDiv, setCurrentDiv] = useState(1);
 
   useEffect(() => {
-    const timeout = setTimeout(() => {
-      setShow((prevShowFirst) => !prevShowFirst);
+    const interval = setInterval(() => {
+      setCurrentDiv((prevDiv) => (prevDiv % 3) + 1); // Cycle through 1, 2, 3
     }, 3000);
 
-    return () => clearTimeout(timeout);
-  }, [show]);
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <div className="w-full px-5 lg:px-32 py-5 md:py-20">
       <div className="w-full h-full flex items-center flex-col-reverse lg:flex-row gap-[120px] xl:gap-[120px]">
         {/* left part */}
         <div className="w-full sm:w-fit flex items-center">
           <div className="w-full">
-            {show && (
+            {currentDiv === 1 && (
               <div className="relative w-full h-[320px] overflow-hidden bg-greyblueColor rounded-2xl xs:w-[500px] xs:h-[400px] md:w-[700px] md:h-[480px] lg:w-[400px] lg:h-[480px] xl:w-[480px] xl:h-[480px]">
                 <div className="h-full flex flex-col justify-center items-center gap-1 xs:gap-2">
                   <div className="w-[250px] xs:w-[290px] h-[65px] xs:h-[72px] topanimation">
@@ -39,7 +42,7 @@ export default function Community() {
               </div>
             )}
 
-            {!show && (
+            {currentDiv === 2 && (
               <div className="relative w-full h-[320px] overflow-hidden bg-greyblueColor rounded-2xl xs:w-[500px] xs:h-[400px] md:w-[700px] md:h-[480px] lg:w-[400px] lg:h-[480px] xl:w-[480px] xl:h-[480px]">
                 <div className="flex flex-col items-center justify-end h-full gap-1 xs:gap-2 md:gap-4 ">
                   <div className="w-[200px] xs:w-[250px] md:w-[290px] h-[190px] xs:h-[240px] md:h-[280px] leftanimation">
@@ -56,6 +59,21 @@ export default function Community() {
                 </div>
               </div>
             )}
+
+            {/* {currentDiv === 3 && (
+              <div className="relative w-full h-[320px] overflow-hidden bg-greyblueColor rounded-2xl xs:w-[500px] xs:h-[400px] md:w-[700px] md:h-[480px] lg:w-[400px] lg:h-[480px] xl:w-[480px] xl:h-[480px]">
+                <div className="flex flex-col items-center justify-end h-full gap-1 xs:gap-2 md:gap-4 ">
+                  <div className="w-[200px] xs:w-[250px] md:w-[290px] h-[190px] xs:h-[240px] md:h-[280px]">
+                    <img src={book} alt="book" />
+                  </div>
+                  <div className="flex flex-col gap-1">
+                    <div className="w-[160px] xs:w-[20px] md:w-[240px] h-[55px] xs:h-[65px] md:h-[80px]">
+                      <img src={message} alt="message" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )} */}
           </div>
         </div>
 
