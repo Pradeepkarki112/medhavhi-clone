@@ -16,7 +16,7 @@ export default function Download() {
               <Downloadphone />
             </button>
 
-            <button className="bg-black px-4 py-3 flex text-white rounded-lg gap-3">
+            <button className="flex bg-black px-4 py-3 text-white rounded-lg gap-3">
               {/* download on the appstore */}
               <svg
                 width="1em"
@@ -36,7 +36,7 @@ export default function Download() {
         </div>
 
         <div className="relative w-full right-0 bottom-0 xl:top-0 lg:absolute xl:relative lg:w-fit flex justify-center lg:justify-start lg:mr-10 mb-10 lg:mb-0 xl:mr-[130px]">
-          <div className="relative w-[300px] md:w-[400px] xl:w-[499.64px] h-[300px] sm:h-[350px] md:h-[430px] xl:h-[527.77px]">
+          <div className="relative w-[300px] md:w-[400px] xl:w-[500px] h-[300px] sm:h-[350px] md:h-[430px] xl:h-[528px]">
             <img src={iphone} alt="Mobile-app" />
           </div>
         </div>

@@ -17,19 +17,21 @@ export default function Discover() {
   const data = [
     {
       image:
-        // {health}
+        // {health},
         "https://medhavhi.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcomponent.5e2bccfa.png&w=640&q=75",
       title: "Why use Medhavhi?",
       date: "12th June 2023",
     },
     {
       image:
+        // {school},
         "https://medhavhi.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcomponent1.904569d3.png&w=640&q=75",
       title: "Discover something awesome",
       date: "12th June 2023",
     },
     {
       image:
+        // {health},
         "https://medhavhi.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcomponent.5e2bccfa.png&w=640&q=75",
       title: "Discover something awesome",
       date: "12th June 2023",
@@ -37,18 +39,21 @@ export default function Discover() {
 
     {
       image:
+        // {school},
         "https://medhavhi.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcomponent1.904569d3.png&w=640&q=75",
       title: "Discover something awesome",
       date: "12th June 2023",
     },
     {
       image:
+        // {health},
         "https://medhavhi.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcomponent.5e2bccfa.png&w=640&q=75",
       title: "Discover something awesome",
       date: "12th June 2023",
     },
     {
       image:
+        // {school},
         "https://medhavhi.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcomponent1.904569d3.png&w=640&q=75",
       title: "Discover something awesome",
       date: "12th June 2023",

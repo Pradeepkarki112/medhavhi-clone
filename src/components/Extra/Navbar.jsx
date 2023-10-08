@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <div className="bg-whiteColor sticky z-20 top-0 shadow-sm">
+    <div className="bg-whiteColor shadow-sm sticky z-10 top-0">
       <div className=" flex justify-between items-center py-3 px-5 lg:px-32">
         <Link to="/">
           <img src={medhavhi} alt="medhavhi" />

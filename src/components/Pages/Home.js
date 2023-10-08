@@ -12,8 +12,8 @@ import Download from "./../Extra/Download";
 export default function Home() {
   return (
     <>
-      <Navbar />
       <div className="bg-backgroundColor">
+        <Navbar />
         <Herobar />
         <Algorithm />
         <Resource />
