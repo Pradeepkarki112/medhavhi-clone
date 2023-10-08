@@ -14,7 +14,7 @@ export default function Community() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentDiv((prevDiv) => (prevDiv % 3) + 1); // Cycle through 1, 2, 3
+      setCurrentDiv((prevDiv) => (prevDiv % 2) + 1); // Cycle through 1, 2, 3
     }, 3000);
 
     return () => clearInterval(interval);
