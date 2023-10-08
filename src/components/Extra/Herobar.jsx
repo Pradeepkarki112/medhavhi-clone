@@ -7,7 +7,7 @@ import dashboard from "./../../assets/2dashboard.png";
 
 export default function Herobar() {
   return (
-    <div className="px-5 lg:px-32 py-10 mmd:pb-44 mmd:pt-[120px]">
+    <div className="px-5 lg:px-32 py-10 md:pb-44 md:pt-[120px] overflow-hidden">
       <div className="relative grid gap-12 md:gap-5 lg:gap-10 xl:gap-28 lg:grid-cols-2">
         {/* left part */}
         <div className="flex flex-col gap-4">
@@ -54,14 +54,14 @@ export default function Herobar() {
         {/* right part */}
         <div className="relative items-center overflow-hidden md:overflow-visible h-60 sm:h-72 md:h-fit">
           <div className="absolute flex gap-2 -top-5 md:gap-4 lg:gap-6">
-            <div className="relative rounded-xl shadow-sm overflow-hidden h-[230px] sm:h-[400px] md:h-[350px] xl:h-[400px] w-[90px] sm:w-[192px] md:w-[150px] xl:w-[192px]">
+            <div className="relative overflow-hidden rounded-xl shadow-sm h-[230px] sm:h-[400px] md:h-[350px] xl:h-[400px] w-[90px] sm:w-[192px] md:w-[150px] xl:w-[192px]">
               <img
                 className="object-fill h-full w-full"
                 src={mobile}
                 alt="mobile"
               />
             </div>
-            <div className="relative rounded-xl shadow-sm overflow-hidden h-[230px] sm:h-[400px] md:h-[350px] xl:h-[400px] w-[420px] sm:w-[640px] md:w-[410px] xl:w-[640px]">
+            <div className="relative overflow-hidden rounded-xl shadow-sm h-[230px] sm:h-[400px] md:h-[350px] xl:h-[400px] w-[420px] sm:w-[640px] md:w-[410px] xl:w-[640px]">
               <img
                 className="object-fill h-full w-full"
                 src={dashboard}

@@ -18,7 +18,7 @@ body::-webkit-scrollbar {
 }
 
 /* Keyframes animation for moving from right to left */
-@keyframes animateLeft {
+@keyframes leftanimation {
     0% {
         transform: translateX(100%);
         /* Start position, fully to the right */
@@ -30,16 +30,16 @@ body::-webkit-scrollbar {
     }
 }
 
-/* CSS class to apply the 'animateLeft' animation */
+/* CSS class to apply the 'leftanimation' animation */
 .leftanimation {
-    animation: animateLeft 1s ease-in-out;
+    animation: leftanimation 1s ease-in-out;
     /* Apply the animation */
     animation-fill-mode: forwards;
     /* Keep the final state after animation */
 }
 
 /* Keyframes animation for moving from bottom to top */
-@keyframes animateUpward {
+@keyframes topanimation {
     0% {
         transform: translateY(100%);
         /* Start position, fully at the bottom */
@@ -51,8 +51,8 @@ body::-webkit-scrollbar {
     }
 }
 
-/* CSS class to apply the 'animateUpward' animation */
+/* CSS class to apply the 'topanimation' animation */
 .topanimation {
-    animation: animateUpward 1s ease-in-out forwards;
+    animation: topanimation 1s ease-in-out forwards;
     /* Apply the animation and keep final state */
 }

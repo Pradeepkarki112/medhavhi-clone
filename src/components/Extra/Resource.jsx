@@ -72,25 +72,25 @@ export default function Resource() {
           <p className="text-primaryColor mb-2 md:mb-4 font-semibold tracking-wide text-xs sm:text-sm md:text-base md:leading-tall">
             Class & resource management
           </p>
-          <div className="font-bold tracking-wide mb-4 md:mb-6text-2xl sm:text-3xl md:text-4xl md:leading-[44px]">
+          <div className="font-bold tracking-wide mb-4 md:mb-6 text-2xl sm:text-3xl md:text-4xl md:leading-[44px]">
             Streamlining Operations with Efficient Class and Resource Management
           </div>
           <div className="flex flex-col w-full mt-6 gap-2">
-            <h1 className="text-blackColor font-bold tracking-wide text-xs sm:text-sm md:text-base leading-5 md:leading-[22px]">
+            <h1 className="text-blackColor font-bold tracking-wide text-xs sm:text-sm md:text-base leading-5 md:leading-tall">
               Assignments
             </h1>
-            <p className="text-secondaryColor tracking-wide text-xs sm:text-sm md:text-base leading-5 md:leading-[22px]">
+            <p className="text-secondaryColor tracking-wide text-xs sm:text-sm md:text-base leading-5 md:leading-tall">
               Seemlessly create, distribute, and evaluate assignments, fostering
               a productive and engaging learning environment.
             </p>
             <div className="w-1/2 h-1 bg-primaryColor rounded-full"></div>
           </div>
 
-          <div className=" w-full flex flex-col gap-2 mt-6">
-            <h1 className="font-bold text-blackColor text-xs sm:text-sm md:text-base tracking-wide leading-5 md:leading-[22px]">
+          <div className="w-full flex flex-col gap-2 mt-6">
+            <h1 className="font-bold text-blackColor text-xs sm:text-sm md:text-base tracking-wide leading-5 md:leading-tall">
               Videos & Resources
             </h1>
-            <p className="text-secondaryColor tracking-wide text-xs sm:text-sm md:text-base leading-5 md:leading-[22px]">
+            <p className="text-secondaryColor tracking-wide text-xs sm:text-sm md:text-base leading-5 md:leading-tall">
               Effortlessly organize, store, and distribute videos, documents,
               and other learning resources, creating a dynamic and engaging
               learning environment.
