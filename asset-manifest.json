@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/medhavhi-clone/static/css/main.5b9b8c11.css",
-    "main.js": "/medhavhi-clone/static/js/main.67b3e207.js",
+    "main.css": "/medhavhi-clone/static/css/main.b30d8c59.css",
+    "main.js": "/medhavhi-clone/static/js/main.35304d24.js",
     "static/js/787.ef32d2e7.chunk.js": "/medhavhi-clone/static/js/787.ef32d2e7.chunk.js",
     "static/media/5video.mp4": "/medhavhi-clone/static/media/5video.66f6708165da5c5096c9.mp4",
     "static/media/2dashboard.png": "/medhavhi-clone/static/media/2dashboard.e3befb4b5ab52fccce35.png",
@@ -18,12 +18,12 @@
     "static/media/7status.png": "/medhavhi-clone/static/media/7status.5d42630d69aae308f3a9.png",
     "static/media/13student.png": "/medhavhi-clone/static/media/13student.f7a55dbb1e7ac5c158b1.png",
     "index.html": "/medhavhi-clone/index.html",
-    "main.5b9b8c11.css.map": "/medhavhi-clone/static/css/main.5b9b8c11.css.map",
-    "main.67b3e207.js.map": "/medhavhi-clone/static/js/main.67b3e207.js.map",
+    "main.b30d8c59.css.map": "/medhavhi-clone/static/css/main.b30d8c59.css.map",
+    "main.35304d24.js.map": "/medhavhi-clone/static/js/main.35304d24.js.map",
     "787.ef32d2e7.chunk.js.map": "/medhavhi-clone/static/js/787.ef32d2e7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b9b8c11.css",
-    "static/js/main.67b3e207.js"
+    "static/css/main.b30d8c59.css",
+    "static/js/main.35304d24.js"
   ]
 }
