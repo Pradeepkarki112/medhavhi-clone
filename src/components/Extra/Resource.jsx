@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import video from "../../assets/5video.mp4";
-import resource from "./../../assets/6resource.png";
-import fstatus from "./../../assets/7status.png";
-import lstatus from "./../../assets/8status.png";
-import frequest from "./../../assets/9request.png";
-import lrequest from "./../../assets/10request.png";
+import {
+  video,
+  resource,
+  fstatus,
+  lstatus,
+  frequest,
+  lrequest,
+} from "../../assets/image/index";
 
 export default function Resource() {
   const [currentDiv, setCurrentDiv] = useState(1);

@@ -1,7 +1,7 @@
 import React from "react";
-import { VscThreeBars } from "react-icons/vsc";
-import medhavhi from "./../../assets/logo-medhavhi.png";
 import { Link } from "react-router-dom";
+import { VscThreeBars } from "react-icons/vsc";
+import { medhavhi } from "../../assets/image/index";
 
 export default function Navbar() {
   return (

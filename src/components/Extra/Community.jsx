@@ -1,13 +1,15 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import fstudent from "./../../assets/11student.png";
-import sstudent from "./../../assets/12student.png";
-import tstudent from "./../../assets/13student.png";
-import post from "./../../assets/14post.png";
-import freply from "./../../assets/15reply.png";
-import lreply from "./../../assets/16reply.png";
-// import book from "./../../assets/17book.png";
-// import message from "./../../assets/18message.png";
+import {
+  fstudent,
+  sstudent,
+  tstudent,
+  post,
+  freply,
+  lreply,
+  // book,
+  // message,
+} from "../../assets/image/index";
 
 export default function Community() {
   const [currentDiv, setCurrentDiv] = useState(1);

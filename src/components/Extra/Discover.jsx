@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { LuMoveRight } from "react-icons/lu";
-// import health from "./../../assets/19health.png";
-// import school from "./../../assets/20school.png";
+// import { health, school } from "../../assets/image/index";
 
 export default function Discover() {
   const [hovering, setHovering] = useState(null);

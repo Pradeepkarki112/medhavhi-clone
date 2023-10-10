@@ -1,5 +1,5 @@
 import React from "react";
-import Steps from "../../svg/Steps";
+import Steps from "../../assets/icons/Steps";
 
 export default function WorkFlow() {
   const work = [

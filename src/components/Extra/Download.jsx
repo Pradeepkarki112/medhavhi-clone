@@ -1,6 +1,6 @@
 import React from "react";
-import iphone from "./../../assets/21iphone.png";
-import Downloadphone from "../../svg/Downloadphone";
+import { iphone } from "../../assets/image/index";
+import Downloadphone from "../../assets/icons/Downloadphone";
 
 export default function Download() {
   return (

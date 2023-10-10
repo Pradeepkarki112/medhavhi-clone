@@ -1,9 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import appstore from "./../../assets/logo-appstore.png";
-import playstore from "./../../assets/logo-playstore.png";
-import mobile from "./../../assets/1mobile.png";
-import dashboard from "./../../assets/2dashboard.png";
+import {
+  appstore,
+  playstore,
+  mobile,
+  dashboard,
+} from "../../assets/image/index";
 
 export default function Herobar() {
   return (

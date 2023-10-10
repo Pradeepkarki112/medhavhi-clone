@@ -1,8 +1,8 @@
 import React from "react";
-import medhavhi from "./../../assets/logo-medhavhi.png";
 import { LuMoveRight } from "react-icons/lu";
 import { Link } from "react-router-dom";
-import SocialLogo from "../../svg/SocialLogo";
+import { medhavhi } from "../../assets/image/index";
+import SocialLogo from "../../assets/icons/SocialLogo";
 
 // import { AiFillTwitterCircle } from "react-icons/ai";
 // import { BiLogoTiktok } from "react-icons/bi";

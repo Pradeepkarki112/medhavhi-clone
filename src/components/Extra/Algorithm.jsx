@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import profile from "./../../assets/3profile.png";
-import chat from "./../../assets/4chat.png";
+import { profile, chat } from "../../assets/image/index";
 
 export default function Algorithm() {
   return (
