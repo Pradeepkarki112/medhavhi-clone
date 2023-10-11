@@ -59,7 +59,7 @@ export default function Resource() {
                     <div className="absolute mt-auto top-[30px] md:top-[60px] w-[250px] xs:w-[290px] h-[120px] md:h-[150px] leftanimation">
                       <img src={frequest} alt="frequest" />
                     </div>
-                    <div className="absolute overflow-hidden -bottom-[350px] xs:-bottom-[290px] md:-bottom-[250px] w-[290px] h-[500px] topanimation">
+                    <div className="absolute overflow-hidden -bottom-[360px] xs:-bottom-[300px] md:-bottom-[250px] h-[500px] w-[250px] xs:w-[290px] topanimation">
                       <img src={lrequest} alt="lrequest" />
                     </div>
                   </div>

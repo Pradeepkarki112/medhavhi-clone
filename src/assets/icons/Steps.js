@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Steps() {
   return (
-    <div>
+    <>
       <svg
         width="1em"
         height="1em"
@@ -19,6 +19,6 @@ export default function Steps() {
           strokeLinejoin="round"
         ></path>
       </svg>
-    </div>
+    </>
   );
 }

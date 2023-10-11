@@ -4,7 +4,7 @@ import { profile, chat } from "../../assets/image/index";
 
 export default function Algorithm() {
   return (
-    <div className="w-full px-4 lg:px-32 mb-5 md:pb-20">
+    <div className="w-full px-4 lg:px-32 sm:my-12 md:pb-20">
       <div className=" w-full h-full flex items-center flex-col-reverse gap-28 xl:gap-[120px] lg:flex-row">
         {/* left part */}
         <div className="w-full flex items-center sm:w-fit">
